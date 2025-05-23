@@ -1,7 +1,5 @@
 # Gavagai
 
-**Interpretive AGI from the Ground Up**
-
 Inspired by Quine and Davidson, Gavagai explores how agents can learn *belief*, *desire*, and *intention* not as predefined states, but as emergent patterns from empirical learning. This project aims to:
 
 - Represent propositional attitudes holophrastically
