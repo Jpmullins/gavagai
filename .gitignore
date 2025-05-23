@@ -3,6 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 
+
 # Python egg info
 *.egg-info/
 *.egg
@@ -13,3 +14,5 @@ mlruns/
 # Distribution / packaging
 dist/
 build/
+=======
+

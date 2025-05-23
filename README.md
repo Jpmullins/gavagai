@@ -15,6 +15,7 @@ This repository includes:
 - Baseline models for learning interpretive structure
 - Philosophical framing and technical vision
 
+
 ## Getting Started
 
 ### Installation
@@ -40,5 +41,7 @@ See [Annotation Format Documentation](docs/annotation_format.md) for details on 
 ```bash
 python -c "from gavagai.train import main; main()"
 ```
+
+=======
 
 Collaborators welcome.
