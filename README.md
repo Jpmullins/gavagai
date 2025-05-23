@@ -15,4 +15,33 @@ This repository includes:
 - Baseline models for learning interpretive structure
 - Philosophical framing and technical vision
 
+
+## Getting Started
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/gavagai.git
+cd gavagai
+pip install -e .
+```
+
+### Creating Annotations
+
+You can create new annotations using the interactive tool:
+
+```bash
+python scripts/create_annotation.py
+```
+
+See [Annotation Format Documentation](docs/annotation_format.md) for details on the annotation format.
+
+### Training a Model
+
+```bash
+python -c "from gavagai.train import main; main()"
+```
+
+=======
+
 Collaborators welcome.
