@@ -1,0 +1,17 @@
+{
+  "dialogue_id": "0002",
+  "context": [
+    {"speaker": "Alice", "text": "I believe climate change is a serious threat."},
+    {"speaker": "Bob", "text": "I'm not convinced by the evidence."},
+    {"speaker": "Carol", "text": "I hope we can find solutions soon."},
+    {"speaker": "Alice", "text": "I know we need to take action immediately."},
+    {"speaker": "Bob", "text": "I doubt individual actions will make any difference."}
+  ],
+  "annotations": [
+    {"speaker": "Alice", "attitude": "believes", "content": "Climate change is a serious threat."},
+    {"speaker": "Bob", "attitude": "doubts", "content": "The evidence for climate change is convincing."},
+    {"speaker": "Carol", "attitude": "hopes", "content": "Solutions to climate change will be found soon."},
+    {"speaker": "Alice", "attitude": "knows", "content": "Immediate action on climate change is necessary."},
+    {"speaker": "Bob", "attitude": "doubts", "content": "Individual actions on climate change are effective."}
+  ]
+}

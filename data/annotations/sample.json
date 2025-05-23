@@ -1,0 +1,25 @@
+{
+  "id": "sample_dialogue_1",
+  "annotations": [
+    {
+      "content": "I really enjoyed that movie, it was fantastic!",
+      "attitude": "positive"
+    },
+    {
+      "content": "I didn't like the direction the story went.",
+      "attitude": "negative"
+    },
+    {
+      "content": "It's probably going to rain today.",
+      "attitude": "neutral"
+    },
+    {
+      "content": "I'm absolutely furious about their customer service.",
+      "attitude": "negative"
+    },
+    {
+      "content": "The new park is beautiful and well-designed.",
+      "attitude": "positive"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[project]
+name = "gavagai"
+version = "0.1.0"
+description = "Interpretive AGI from the ground up—propositional attitudes, belief, and triangulation-based learning."
+authors = [{ name = "Justin" }]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+  "mlflow>=2.0.0",
+  "torch>=2.0.0",
+  "transformers>=4.37.0",
+  "pytorch-lightning>=2.0.0",
+  "scikit-learn",
+  "notebook",
+  "ipykernel"
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

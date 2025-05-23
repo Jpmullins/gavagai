@@ -1,0 +1,17 @@
+{
+  "dialogue_id": "0001",
+  "context": [
+    {"speaker": "A", "text": "I really enjoyed that movie, it was fantastic!"},
+    {"speaker": "B", "text": "I didn't like the direction the story went."},
+    {"speaker": "A", "text": "It's probably going to rain today."},
+    {"speaker": "C", "text": "I'm absolutely furious about their customer service."},
+    {"speaker": "B", "text": "The new park is beautiful and well-designed."}
+  ],
+  "annotations": [
+    {"speaker": "A", "attitude": "believes", "content": "The movie was fantastic."},
+    {"speaker": "B", "attitude": "believes", "content": "The story direction was bad."},
+    {"speaker": "A", "attitude": "suspects", "content": "It will rain today."},
+    {"speaker": "C", "attitude": "angry_about", "content": "The customer service."},
+    {"speaker": "B", "attitude": "appreciates", "content": "The park's design."}
+  ]
+}
