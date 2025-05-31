@@ -1,54 +1,50 @@
-# Gavagai: Engineering Rational Artificial Agents
+# Gavagai: Triangulation RL Agents
 
-Inspired by Quine and Davidson, Gavagai explores how agents can learn *belief*, *desire*, and *intention* not as predefined states, but as emergent patterns from empirical learning. This project aims to:
-
-- Represent propositional attitudes holophrastically
-- Anchor meaning through intersubjective triangulation
-- Model rational normativity and interpretive understanding
-
-> “Meaning is not in the head. It is in the act of interpretation.”
+Inspired by Quine and Davidson, Gavagai aims to engineer agents whose behavior can be described in terms of propositional attitudes—beliefs, desires, intentions—emerging from dynamic, multi-agent interaction and rational normativity.
 
 ## Project Overview
-Gavagai is an ambitious research project to engineer an artificial agent whose behavior can be described in terms of propositional attitudes—beliefs, desires, intentions—drawing on the philosophical insights of Donald Davidson and W.V.O. Quine. The goal is not simply to classify text or generate language, but to build a system whose actions and outputs fit into normatively rational patterns, making psychological (intentional) descriptions true of it, not just mechanistic or physical ones.
+Gavagai is a research project to build agents that fit into normatively rational patterns, enabling radical interpretation and triangulation. The approach integrates Bayesian inference, reinforcement learning, and philosophical insights from Davidson and Quine.
 
-## Philosophical Foundations
-- **Rational Structure**: Psychological descriptions (belief, desire, intention) impose a rational structure on behavior, supervening on but not reducible to physical mechanisms.
-- **Normativity**: The agent should act in ways that fit rational patterns, not just produce sentences. Outputs should be interpretable as rational, intentional actions.
-- **Radical Interpretation**: The agent should be capable of radical interpretation—assigning propositional attitudes to others and itself through intersubjective triangulation.
-- **Naturalism**: Language and thought emerge from social interaction and environmental triangulation, not from innate mechanisms or internal representations alone.
-- **Compositional Semantics**: The project explores how LLMs can move beyond stochastic text generation to simulate the logical and recursive constraints of rational, intentional descriptions.
+## Step-by-Step Plan
 
-## Roadmap
-1. **Project Overhaul**: Remove legacy code focused on simple text classification. Refactor to align with the new philosophical and engineering goals.
-2. **Literature Review**: Summarize key works by Davidson, Quine, and related thinkers. Identify computational analogues and prior work.
-3. **Design Principles**: Formalize requirements for rational, intentional behavior in artificial agents. Define evaluation criteria.
-4. **Prototype Development**: Explore architectures that support radical interpretation, normativity, and compositional semantics.
-5. **Iterative Testing**: Develop benchmarks and tests for rational patterning and intentional ascription.
-6. **Documentation**: Maintain clear philosophical and technical documentation for all contributors.
+### 1. Clarify Conceptual Requirements
+- **Triangulation:** Multi-agent, iterative adjustment of propositional attitudes
+- **Bayesian-RL Integration:** Belief, desire, and intention updates via Bayesian inference and RL
+- **Normative Rationality:** Coherence constraints for meaningful, stable attitudes
 
-## Getting Started
+### 2. Architectural Outline
+```
+Triangulation RL Architecture
 
-### Installation
-
-```bash
-git clone https://github.com/yourusername/gavagai.git
-cd gavagai
-pip install -e .
+Interactions (Multi-agent setting)
+│
+├── Agents (interpreters and interpretees)
+│     ├── Cognitive Architecture
+│     │     ├── Bayesian Belief System
+│     │     ├── Utility (Desires/Expected Utility)
+│     │     ├── Intention Module
+│     │     └── Connotative/Additional Attitudes (optional)
+│     └── World Interaction Module
+│           ├── Language generation (LLM)
+│           ├── Action generation (simulated environments)
+│           └── Perception modules
+└── World Model (dynamic latent-state, counterfactual reasoning)
 ```
 
-### Creating Annotations
+### 3. Technical Requirements
+- Bayesian RL, Multi-Agent RL, Inverse RL/RLHF
+- Dynamic Bayesian Networks, Hierarchical Bayesian models
+- Logical coherence checking, rational belief revision
+- Multi-agent and language-based simulation environments
 
-You can create new annotations using the interactive tool:
+### 4. Immediate Actions
+- Set up a multi-agent simulation environment
+- Prototype a Bayesian belief-updating agent
+- Implement RL integration for utilities, intentions, and additional attitudes
 
-```bash
-python scripts/create_annotation.py
-```
-
-See [Annotation Format Documentation](docs/annotation_format.md) for details on the annotation format.
+## Contributing
+See `INSTRUCTIONS.md` for the philosophical and technical background. All contributions should align with the triangulation RL plan and rationalist/naturalist orientation.
 
 ---
 
-## Contributing
-See `INSTRUCTIONS.md` for the philosophical background and guiding principles. Contributions should align with the project's rationalist and naturalist orientation.
-
-*This project is a work in progress. All code, documentation, and design decisions should be guided by the philosophical framework outlined above.*
+*This project is a work in progress. All code, documentation, and design decisions should follow the plan and philosophical framework outlined above.*
