@@ -24,4 +24,22 @@ class Annotation:
         self.attitude_type = attitude_type  # e.g., 'belief', 'desire', 'intention'
         self.content = content  # e.g., proposition, goal, etc.
 
+# Utility functions
+def load_annotations(directory):
+    """Load dialogue annotations from a directory of JSON files."""
+    import json
+    from pathlib import Path
+
+    dialogues = []
+    for path in Path(directory).glob("*.json"):
+        with open(path, "r") as f:
+            data = json.load(f)
+        utterances = [(u["speaker"], u["text"]) for u in data.get("context", [])]
+        ann = [
+            Annotation(a["speaker"], a["attitude"], a["content"])
+            for a in data.get("annotations", [])
+        ]
+        dialogues.append(Dialogue(utterances, ann))
+    return dialogues
+
 # TODO: Add data loading, saving, and simulation utilities as needed
